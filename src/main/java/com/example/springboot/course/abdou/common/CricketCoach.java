@@ -18,16 +18,16 @@ public class CricketCoach implements Coach {
     }
 
     // define out intit method
-    @PostConstruct
-    public void doMyStartupStuff() {
-        System.out.println("Cricket Coach doMyStartupStuff");
-    }
+//    @PostConstruct
+//    public void doMyStartupStuff() {
+//        System.out.println("Cricket Coach doMyStartupStuff");
+//    }
 
     // define our destroy method
-    @PreDestroy
-    public void doMyShutdownStuff() {
-        System.out.println("Cricket Coach doMyShutdownStuff");
-    }
+//    @PreDestroy
+//    public void doMyShutdownStuff() {
+//        System.out.println("Cricket Coach doMyShutdownStuff");
+//    }
 
     @Override
     public String getDailyWorkout() {
