@@ -1,5 +1,7 @@
 package com.example.springboot.course.abdou.common;
 
+import org.springframework.stereotype.Component;
+
 public class SwimCoach implements Coach{
 
     public SwimCoach(){
